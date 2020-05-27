@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'MoviesStreamer.apps.MoviesstreamerConfig',
+    'embed_video',
 ]
 
 MIDDLEWARE = [

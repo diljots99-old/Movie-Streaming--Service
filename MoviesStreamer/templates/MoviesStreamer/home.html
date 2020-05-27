@@ -1,0 +1,11 @@
+
+{% extends "MoviesStreamer/base.html" %}
+
+{% block content%}
+    <h1>Welcome To Homepage of movieStreamer Webapp</h1>
+
+    {% for post in Movies %}
+        <h2> {{post.MovieName}} </h2>
+    {% endfor %}
+
+{% endblock content%}
